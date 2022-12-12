@@ -1,0 +1,83 @@
+body{
+  
+    background-image: url(./style/hua-ling-Q-Lv5VezurM-unsplash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  } 
+  .book {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .book .bookTitle {
+    font-family: cursive;
+    font-size: 60px;
+    /* columns: rgb(255, 241, 241); */
+    margin-bottom: 2%;
+  }
+  .bookItem h2{
+    color: rgb(240, 240, 240);
+    text-align: center;
+  }
+  .bookList {
+    width: 70vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  
+  }
+  
+  /* MENU ITEM STYLING */
+  
+  .bookItem {
+    /* back */
+    border-radius: 15px;
+    width: 300px;
+    height: 520px;
+    margin: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  }
+  .bookItem div {
+    /* image */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 430px;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bookItem:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.8);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    transform: scale(105%);
+    transition:0.7s ;
+    
+  }
+  
+  
+  .bookItem h1,
+  .bookItem p {
+    margin-left: 20px;
+  }
+  
+  @media only screen and (max-width: 1300px) {
+    .bookList {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .bookList {
+      grid-template-columns: 1fr;
+    }
+  }

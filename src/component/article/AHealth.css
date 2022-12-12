@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 30px;
+
+}
+h2{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+img{
+    display: flex;
+    margin-left: 23%;
+    height: 500px;
+    width: 50%;
+    
+}
+.icon img{
+    margin-left: 5%;
+   height: 170px;
+    width: 180vh;
+}
+
